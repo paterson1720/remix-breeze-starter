@@ -37,6 +37,12 @@ export default function Index() {
             </Link>{" "}
             to scaffold a complete authentication flow.
           </p>
+          <Link
+            to="/auth/login"
+            className="bg-blue-600 w-full mt-6 block text-white  px-6 p-2 rounded-md"
+          >
+            Login
+          </Link>
         </div>
       </div>
     </section>
