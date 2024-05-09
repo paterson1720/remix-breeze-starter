@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@prisma/client": "^5.13.0",
-    "@remix-breeze/auth": "^1.0.4",
+    "@remix-breeze/auth": "^1.2.1",
     "@remix-run/node": "^2.9.1",
     "@remix-run/react": "^2.9.1",
     "@remix-run/serve": "^2.9.1",

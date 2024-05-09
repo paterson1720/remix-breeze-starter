@@ -48,6 +48,9 @@ function SiteNavbar() {
           </span>
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <Link to="/auth/login" className="bg-blue-600 text-white  px-6 p-2 rounded-md">
+            Login
+          </Link>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"

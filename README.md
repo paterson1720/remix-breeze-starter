@@ -1,8 +1,8 @@
-# Welcome to Remix Breeze!
+# Welcome to Remix Breeze Starter!
 
-The Kit to ship amazing apps with Remix without headache.
+Remix-Breeze is an ecosystem of developer tools to ship amazing apps with Remix without headache.
 
-This kit is setup with Remix + Tailwindcss + Prisma + SQLite (You can easily change to another database when you are ready to move to prod)
+This starter template is setup with Remix + Tailwindcss + Prisma + SQLite (You can easily change to another database when you are ready to move to prod)
 
 ## Get started
 
@@ -95,5 +95,9 @@ Now your app has a full authentication flow, user can:
 If you visit `/auth/register` route in your app you should be able to register and redirected to the `/test-dashboard` page, feel free to change where user is redirected after authentication in the code. You can visit `/auth/logout` to logout.
 
 Feel free to test the authentication flow and play with it.
+
+## Stay in touch
+
+- Follow me on [X (Twitter)](https://twitter.com/Paterson1720) to stay in touch and get update when new tools are released.
 
 Happy coding!
