@@ -16,8 +16,11 @@ export default function Login() {
           <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Login Page</h1>
           <p className="text-gray-500 md:text-xl dark:text-gray-400">
             Login page not implemented yet. You can customize this page in{" "}
-            <code className="text-orange-500">app/routes/_site.auth.login.tsx</code>. If you want to
-            quickly add authentication to your app, you can run the Remix-Breeze &nbsp;
+            <code className="text-orange-500">app/routes/_site.auth.login.tsx</code>.
+          </p>
+          <p className="text-gray-500 md:text-xl dark:text-gray-400">
+            If you want to quickly add authentication to your app, you can run the Remix-Breeze
+            &nbsp;
             <Link
               to="https://github.com/paterson1720/remix-breeze-starter"
               target="_blank"
@@ -27,8 +30,10 @@ export default function Login() {
                 npx @remix-breeze/cli scaffold auth
               </strong>{" "}
             </Link>
-            command to scaffold a complete authentication flow. If not you don&apos;t want auth
-            support in your app you can delete the{" "}
+            command to scaffold a complete authentication flow.
+          </p>
+          <p className="text-gray-500 md:text-xl dark:text-gray-400">
+            If you don&apos;t want auth support in your app you can delete the{" "}
             <code className="text-orange-500">app/routes/_site.auth.login.tsx</code> file.
           </p>
         </div>

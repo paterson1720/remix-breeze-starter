@@ -4,6 +4,8 @@ Remix-Breeze is an ecosystem of developer tools to ship amazing apps with Remix 
 
 This starter template is setup with Remix + Tailwindcss + Prisma + SQLite (You can easily change to another database when you are ready to move to prod)
 
+Easily add a full authentication flow using the [`@remix-breeze/cli scaffold auth`](#scaffolding-authentication) command.
+
 ## Get started
 
 - Clone the repository
@@ -95,6 +97,9 @@ Now your app has a full authentication flow, user can:
 If you visit `/auth/register` route in your app you should be able to register and redirected to the `/test-dashboard` page, feel free to change where user is redirected after authentication in the code. You can visit `/auth/logout` to logout.
 
 Feel free to test the authentication flow and play with it.
+
+> [!Tip]
+> If you have any error after the scaffolding, try restarting your dev server.
 
 ## Stay in touch
 

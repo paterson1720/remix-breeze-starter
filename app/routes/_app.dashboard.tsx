@@ -16,7 +16,10 @@ export default function Dashboard() {
           <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Dashboard</h1>
           <p className="text-gray-500 md:text-xl dark:text-gray-400">
             This is an example dashboard page. You can customize this page in{" "}
-            <code className="text-orange-500">app/routes/_app.dashboard.tsx</code>. Follow the{" "}
+            <code className="text-orange-500">app/routes/_app.dashboard.tsx</code>.
+          </p>
+          <p className="text-gray-500 md:text-xl dark:text-gray-400">
+            Follow the{" "}
             <Link to="https://github.com/paterson1720/remix-breeze-starter?tab=readme-ov-file#scaffolding-authentication">
               <strong className="text-blue-500 hover:underline">Remix-Breeze Starter</strong>{" "}
             </Link>
@@ -26,8 +29,11 @@ export default function Dashboard() {
                 npx @remix-breeze/cli scaffold auth
               </strong>{" "}
             </Link>{" "}
-            command, once you got authentication setup this page will be protected to be accessible
-            to only authenticated users.
+            command
+          </p>
+          <p className="text-gray-500 md:text-xl dark:text-gray-400">
+            once you got authentication setup this page will be protected to be accessible to only
+            authenticated users.
           </p>
         </div>
       </div>
